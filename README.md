@@ -28,10 +28,16 @@ nous avons maintenant besoin de prendre une image de départ Debian pour notre c
 vim Dockerfile
 ######Ajouter les lignes suivantes au fichier 'Dockerfile'
 FROM debian
+
 Maintainer TSI15
 RUN apt-get update && apt-get install libxml2-utils
 ADD /home/validate-XML.sh
 RUN chmod +x /home/validate-XML.sh
+
+le contenu du Dockerfile nous permet de déclarer la base avec laquelle le conteneur va travailler qui est debian
+et il met à jour et télécharge la librairie libxml2-utils,ensuite on ajoute le script shell qui valide les fichiers xml et xsd
+et enfin on donne les droits d'éxecution au script shell.
+
 
 ##### 5)On crée ensuite le script shell 'validate-XML.sh'
  #!/bin/bash

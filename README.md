@@ -37,9 +37,8 @@ ADD /home/validate-XML.sh
 
 RUN chmod +x /home/validate-XML.sh
 
-le contenu du Dockerfile nous permet de déclarer la base avec laquelle le conteneur va travailler qui est debian
-et il met à jour et télécharge la librairie libxml2-utils,ensuite on ajoute le script shell qui valide les fichiers xml et xsd
-et enfin on donne les droits d'éxecution au script shell.
+le contenu du Dockerfile nous permet de déclarer debian comme base du conteneur et il met à jour et télécharge la librairie libxml2-utils,ensuite il faut ajouter le script shell qui valide les fichiers xml et xsd
+et enfin on donne les droits d'éxecution au script shell 'validate-XML.sh'.
 
 
 ##### 5)On crée ensuite le script shell 'validate-XML.sh'

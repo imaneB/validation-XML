@@ -25,7 +25,7 @@ nous avons maintenant besoin de prendre une image de départ Debian pour notre c
 
 #####6)configuration de l'image docker
 on crée un fichier 'Dockerfile'
->>vim Dockerfile
+vim Dockerfile
 on ajout les lignes suivantes au fichier 'Dockerfile'
 FROM debian
 Maintainer TSI15

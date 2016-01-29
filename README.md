@@ -12,7 +12,7 @@ supportant Docker,donc pour se faire on va suivre les étapes suivantes:
 #####3)L'installation de l'éditeur de texte 'vim' pour le terminal sous Linux
 >>apt-get install vim
 
-#####4)on crée un fichier texte pour la configuration de proxy de l'école
+#####4)on crée un fichier texte pour la configuration de proxy 
 >>vim /etc/systemed/system/docker.service.d/http_proxy.conf
 ###### On ajoute la ligne suivante dans le fichier http_proxy.conf
 Environnement="HTTP_PROXY=https://10.0.4.2:3128/"

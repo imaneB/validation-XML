@@ -3,7 +3,7 @@ Validation d'un fichier XML et son XSD avec Docker
 
 le But de notre application est de valider un fichier XML et son XSD sur une machine 
 supportant Docker,donc pour se faire on va suivre les étapes suivantes:
-# 1) L'installation du docker
+##### 1) L'installation du docker
 >>apt-get install docker.io
 
 # 2)La configuration du proxy pour notre image

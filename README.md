@@ -52,6 +52,7 @@ xmllint --noout /répertoire/vers/xml-xsd/annuaire.xml --shema /répertoire/vers
 
 ##### 7) Validation du fichier xml et son xsd :
 A l'aide de cette commande on peut valider nos fichiers xml et xsd 
+
 docker run -v /répertoire/vers/xml-xsd:/home my_container /home/validate-XML.sh annuaire.xml annuaire.xsd
 
 ##### 8)Résultat obtenu

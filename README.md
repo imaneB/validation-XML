@@ -14,7 +14,7 @@ supportant Docker,donc pour se faire on va suivre les étapes suivantes:
 
 #####4)on crée un fichier texte pour la configuration de proxy de l'école
 >>vim /etc/systemed/system/docker.service.d/http_proxy.conf
-#on ajoute la ligne suivante dans le fichier http_proxy.conf
+###### On ajoute la ligne suivante dans le fichier http_proxy.conf
 Environnement="HTTP_PROXY=https://10.0.4.2:3128/"
 
 #####5) Manipulation de l'image

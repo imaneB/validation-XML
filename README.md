@@ -24,7 +24,7 @@ nous avons maintenant besoin de prendre une image de départ Debian pour notre c
 >>docker pull debian
 
 #####4)configuration de l'image docker
-######on crée un fichier 'Dockerfile'
+######Créer un fichier 'Dockerfile' à l'aide de la commande:
 vim Dockerfile
 ######Ajouter les lignes suivantes au fichier 'Dockerfile'
 FROM debian

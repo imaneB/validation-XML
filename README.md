@@ -44,6 +44,7 @@ et enfin on donne les droits d'éxecution au script shell.
 
 ##### 5)On crée ensuite le script shell 'validate-XML.sh'
  #!/bin/bash
+ 
 xmllint --noout /répertoire/vers/xml-xsd/annuaire.xml --shema /répertoire/vers/xml-xsd/annuaire.xsd
 
 ##### 6) Construction du conteneur 'my_container'
